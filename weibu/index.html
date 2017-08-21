@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin:0;
+				padding:0;
+			}
+			body{
+				background:#eee;
+			}
+			#footer{
+				width:100%;
+			}
+			#footer .footer-box{
+				width:1200px;
+				margin:0 auto;
+			}
+			#footer .footer-box .foot-directory{
+				height:260px;
+			}
+			#footer .footer-box .foot-directory .list{
+				float:left;
+			}
+			#footer .footer-box .foot-directory .list .list-li{
+				list-style:none;
+				display:inline-block;
+				vertical-align: top;
+			}
+			#footer .footer-box .foot-directory .list .list-li ul li{
+				width:180px;
+				height:23px;
+				list-style:none;
+				font-size:14px;
+				line-height:23px;
+			} 
+			#footer .footer-box .foot-directory .list .list-li ul li a{
+				text-decoration: none;
+				color:#333;
+			}
+			#footer .footer-box .foot-directory .list .list-li ul li a:hover{
+				color:lightblue;
+			}
+			#footer .footer-box .foot-directory .list .list-li .list-li-title{
+				margin-bottom:10px;
+				font-weight:600;
+			}
+			#footer .footer-box .foot-directory .phone{
+				float:right;
+			}
+			#footer .footer-box .foot-directory .phone p{
+				font-size:14px;
+				text-align:right;
+			} 
+			#footer .footer-box .foot-directory .phone span{
+				font-size:25px;
+				display:block;
+				margin:15px 0;
+			}
+			#footer .footer-box .foot-directory .phone p img{
+				width:14px;
+				height:14px;
+				margin-right:5px;
+			}
+			#footer .footer-box .foot-copyright{
+				border-top:1px solid #eee;
+				padding-top:35px;
+				width:1200px;
+				
+			}
+			#footer .footer-box .foot-copyright p{
+				display:inline;
+				font-size:12px;
+			}
+			#footer .footer-box .foot-copyright .other{
+				float:right;
+			}
+			#footer .footer-box .foot-copyright .other li{
+				list-style:none;
+				display:inline-block;
+				position:relative;
+			}
+			#footer .footer-box .foot-copyright .other li a{
+				text-decoration: none;
+				color:#333;
+				font-size:12px;
+				display:inline-block;
+				width:90px;
+				height:23px;
+				line-height:23px;
+			}
+			#footer .footer-box .foot-copyright .other .gz a{
+				text-align: center;
+				border-right:1px solid #ccc;
+			}
+			#footer .footer-box .foot-copyright .other .gz .gz-show{
+				width:150px;
+				height:145px;
+				background:#fff;
+				position:absolute;
+				top:-175px;
+				left:-40px;
+				display:none;
+				padding-top:30px;
+			}
+			#footer .footer-box .foot-copyright .other .gz .gz-show ul{
+				overflow: hidden;
+			}
+			#footer .footer-box .foot-copyright .other .gz .gz-show ul li{
+				display:block;
+				width:100%;
+				height:40px;
+				line-height:40px;
+				padding-left:50px;
+				position:relative;
+			}
+			#footer .footer-box .foot-copyright .other .gz .gz-show ul li:hover{
+				background:#eee;
+			}
+			#footer .footer-box .foot-copyright .other .gz .gz-show ul span{
+				position:absolute;
+				display:block;
+				width:175px;
+				height:175px;
+				top:0;
+				left:-175px;
+				display:none;
+				background:#000;
+			}
+			#footer .footer-box .foot-copyright .other .gz .gz-show ul .weixin:hover~span{
+				display:block;
+				background:url(./weixin.jpg) no-repeat;
+				background-size:100% 100%;
+			}
+			#footer .footer-box .foot-copyright .other .gz .gz-show ul .zhifubao:hover~span{
+				display:block;
+				background:url(./zhifubao.jpg) no-repeat;
+				background-size:100% 100%;
+			}
+			#footer .footer-box .foot-copyright .other .gw a{
+				text-align:right;
+			}
+			#footer .footer-box .foot-copyright .other .gw .gw-show{
+				width:300px;
+				height:270px;
+				background:#fff;
+				position:absolute;
+				top:-300px;
+				right:0;
+				display:none;
+				padding-top:30px;
+			}
+			#footer .footer-box .foot-copyright .other .gw .gw-show ul{
+				overflow: hidden;
+			}
+			#footer .footer-box .foot-copyright .other .gw .gw-show ul li{
+				display:block;
+				padding-left:80px;
+				width:100%;
+				height:40px;
+				line-height:40px;
+			}
+			#footer .footer-box .foot-copyright .other .gw .gw-show ul li:hover{
+				background:#eee;
+			}
+		</style>
+		<script src="jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<header id="header">
+			
+		</header>
+		<section id="main">
+			
+		</section>
+		<footer id="footer">
+			<div class="footer-box">
+				<div class="foot-directory">
+					<ul class="list">
+						<li class="list-li">
+							<ul>
+								<li class="list-li-title">热门链接</li>
+								<li><a href="">X9Plus</a></li>
+								<li><a href="">X9</a></li>
+								<li><a href="">Xplay6</a></li>
+								<li><a href="">查找手机</a></li>
+								<li><a href="">体验中心</a></li>
+								<li><a href="">常见问题</a></li>
+							</ul>
+						</li>
+						<li class="list-li">
+							<ul>
+								<li class="list-li-title">在线购买</li>
+								<li><a href="">官方商城</a></li>
+								<li><a href="">选购手机</a></li>
+								<li><a href="">选购配件</a></li>
+								<li><a href="">选购碎屏宝</a></li>
+								<li><a href="">服务保障</a></li>
+							</ul>
+						</li>
+						<li class="list-li">
+							<ul>
+								<li class="list-li-title">服务支持</li>
+								<li><a href="">服务首页</a></li>
+								<li><a href="">服务网点查询</a></li>
+								<li><a href="">真伪查询</a></li>
+								<li><a href="">服务政策</a></li>
+								<li><a href="">预约维修</a></li>
+								<li><a href="">维修配件价格</a></li>
+							</ul>
+						</li>
+						<li class="list-li">
+							<ul>
+								<li class="list-li-title">vivo社区</li>
+								<li><a href="">社区首页</a></li>
+								<li><a href="">摄影专区</a></li>
+								<li><a href="">微博</a></li>
+								<li><a href="">贴吧</a></li>
+								<li><a href="">兴趣部落</a></li>
+							</ul>
+						</li>
+						<li class="list-li">
+							<ul>
+								<li class="list-li-title">关于vivo</li>
+								<li><a href="">vivo简介</a></li>
+								<li><a href="">工作机会</a></li>
+								<li><a href="">新闻资讯</a></li>
+								<li><a href="">采购平台</a></li>
+								<li><a href="">开发者平台</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div class="phone">
+						<p>24小时服务热线:</p>
+						<span>400-678-9688</span>
+						<p><img src="./kefu.png" alt="" />在线客服</p>
+					</div>
+				</div>
+				<div class="foot-copyright">
+					<p>Copyright &copy;2011-2017 广东步步高电子工业有限公司 版权所有 保留一切权利粤B2-20080267 | 粤ICP备05100288号<img src="./gssw-icon_316b1d0.png" alt="" /></p>
+					<ul class="other">
+						<li class="gz">
+							<a href="">关注vivo</a>
+							<div class="gz-show">
+								<ul>
+									<li>微博</li>
+									<li class="weixin">微信</li>
+									<li class="zhifubao">支付宝</li>
+									<span></span>
+								</ul>
+							</div>
+						</li>
+						<li class="gw">
+							<a href="">国际官网</a>
+							<div class="gw-show">
+								<ul>
+									<li>Globa-Elglish</li>
+									<li>India-Elglish</li>
+									<li>Myanmar-Elglish</li>
+									<li>Malaysia-Elglish</li>
+									<li>Philippines-Elglish</li>
+									<li>中国-简体中文</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script>
+		var timer = null;
+	    $('.gz a').hover(function(){
+	        clearTimeout(timer);
+	        $('.gz-show').fadeIn();
+	   },function(){
+	        timer = setTimeout(function(){
+	            $('.gz-show').fadeOut();
+	        }, 30);
+	    });
+	    $('.gz-show').hover(function(){
+	        clearTimeout(timer);
+	        $('.gz-show').fadeIn();
+	   },function(){
+	        timer = setTimeout(function(){
+	            $('.gz-show').fadeOut();
+	        }, 30);
+		});
+		
+		var timer1 = null;
+	    $('.gw a').hover(function(){
+	        clearTimeout(timer1);
+	        $('.gw-show').fadeIn();
+	   },function(){
+	        timer1 = setTimeout(function(){
+	            $('.gw-show').fadeOut();
+	        }, 30);
+	    });
+	    $('.gw-show').hover(function(){
+	        clearTimeout(timer1);
+	        $('.gw-show').fadeIn();
+	   },function(){
+	        timer1 = setTimeout(function(){
+	            $('.gw-show').fadeOut();
+	        }, 30);
+		});
+	    
+	    
+	    
+		
+	</script>
+</html>
